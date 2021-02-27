@@ -63,7 +63,7 @@ function AniSearch() {
       <img src={staffResult.data.Staff.image.medium} alt=""/>
     </div>
     }
-    <button onClick={() => getCharacter({ variables: { search: "中村" } })}>
+    <button onClick={() => getStaff({ variables: { search: "中村" } })}>
       search for "中村"
     </button>
    </Container>);
